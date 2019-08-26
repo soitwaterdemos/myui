@@ -1,6 +1,8 @@
 import Button from './Button/index.js'; // 引入组件
+import CommonButton from './CommonButton/index.js'; // 引入组件
 const components = [
-  Button
+  Button,
+  CommonButton
 ];
 //'vue-use是调用的install方法'
 const install = function(Vue) {
@@ -14,5 +16,6 @@ if (typeof window !== 'undefined' && window.Vue) {
 
 export default {
   install, // 如果在外面使用vue.use的话，就会默认使用install方法
-  Button
+  Button,
+  CommonButton
 };

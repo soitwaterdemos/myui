@@ -2,6 +2,7 @@
   <div>
     <sy-button icon-position="right">12</sy-button>
     <sy-button icon-position="left" :loading="false">12</sy-button>
+    <sy-common-button>14</sy-common-button>
   </div>
 </template>
 
